@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rigistration form</title>
+</head>
+<body>
+
+<form action="action_page.php">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <hr>
+    <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> prefer not to say<br>
+   <label for="cars">select country:</label>
+  <select name="select" id="select country">
+    <option value="pakistan">pakistan</option>
+    <option value="bangladesh">bangladesh</option>
+    <option value="iran">iran</option>
+    <option value="sirilanka">sirilanka</option>
+  </select>
+  <br><br>
+<label for="start">Date of birth:</label>
+
+<input type="date" id="date of birth" name="trip-start"
+       value="00-00-00"
+       min="1999-01-01" max="2021-12-31">
+<br>
+<label for="start">remember my information:</label>
+<input type="checkbox" id="information" name="information" value="information">
+<br>
+
+    <button type="submit" class="registerbtn">submit</button>
+  </div>
+
+  <div class="container signin">
+
+  	
+    
+  </div>
+</form>
+
+
+</body>
+</html>
